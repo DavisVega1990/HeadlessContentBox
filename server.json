@@ -1,0 +1,31 @@
+{
+    "name":"cbheadless",
+    "web":{
+        "http":{
+            "port": "61680"
+        },
+        "directoryBrowsing":false,
+        "rewrites":{
+            "enable":true
+        }
+    },
+    "JVM":{
+        "heapSize":"768",
+        "args":"-Dlucee.extensions=6DD4728A-AB0C-4F67-9DCE1A91A8ACD114"
+    },
+    "openBrowserURL":"/",
+    "trayicon":"modules_app/contentbox-custom/_content/ContentBoxIcon300.png",
+    "trayOptions":[
+        {
+            "label":"Open ContentBox Admin",
+            "action":"openbrowser",
+            "url":"/cbadmin",
+            "disabled":false,
+            "image":"modules_app/contentbox-custom/_content/ContentBoxIcon300.png"
+        }
+    ],
+    "app":{
+        "cfengine":"lucee@5"
+    },
+    "openBrowser":"true"
+}
