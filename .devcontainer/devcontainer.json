@@ -23,7 +23,7 @@
 		"sperovita.alpinejs-syntax-highlight"
 	],
 	"portsAttributes": {
-		"32156": {
+		"61680": {
 		  "label": "Application",
 		  "onAutoForward": "openPreview"
 		}
